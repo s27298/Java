@@ -29,7 +29,6 @@ public class Main {
             @Override
             public void trigger(PinEvent event) {
                 System.out.println("Alarm triggered: " + event.getMessage());
-                // Tutaj można dodać kod obsługujący alarm, np. wysyłanie powiadomienia do firmy ochroniarskiej.
             }
         };
 
